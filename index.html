@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tsuru — Portfolio</title>
+  <meta name="description" content="Tsuru のポートフォリオ。Railsで作ったbudget_appを中心に、職務経歴やスキルを公開しています。" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="/favicon.ico" />
+  <style>
+    .accent { background: linear-gradient(90deg,#7c3aed,#06b6d4); -webkit-background-clip: text; color: transparent }
+    .glass { background: rgba(255,255,255,0.06); backdrop-filter: blur(6px); }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-gray-100 antialiased">
+  <header class="max-w-5xl mx-auto p-6 flex items-center justify-between border-b border-gray-700">
+    <a href="#home" class="flex items-center gap-3">
+      <div class="w-10 h-10 rounded-full bg-gradient-to-br from-purple-600 to-cyan-400 flex items-center justify-center font-bold shadow-lg">T</div>
+      <div class="font-semibold text-lg">Tsuru</div>
+    </a>
+  </header>
+
+  <main id="home" class="max-w-5xl mx-auto px-6 pb-16">
+    <section class="py-12 space-y-12">
+      <div>
+        <h1 class="text-4xl font-bold mb-6 accent">職務経歴</h1>
+        <div class="grid md:grid-cols-2 gap-6 text-sm text-gray-300">
+          <div class="glass p-4 rounded-xl shadow-lg">
+            <h3 class="text-lg font-semibold mb-2">地方自治体</h3>
+            <p class="mb-1 text-xs text-gray-400">2022年4月〜在籍中｜正社員</p>
+            <p>工事費の積算、工事監督、市町との調整、地元との調整、問い合わせ対応、契約・支払事務、VBAによる業務改善、新規採用職員指導、システム管理</p>
+          </div>
+          <div class="glass p-4 rounded-xl shadow-lg">
+            <h3 class="text-lg font-semibold mb-2">SES企業</h3>
+            <p class="mb-1 text-xs text-gray-400">2021年8月〜2022年3月｜契約社員</p>
+            <p>テスト実行ログの整理、勤怠管理</p>
+          </div>
+          <div class="glass p-4 rounded-xl shadow-lg">
+            <h3 class="text-lg font-semibold mb-2">プログラミング教育企業</h3>
+            <p class="mb-1 text-xs text-gray-400">2020年1月〜2021年5月｜正社員</p>
+            <p>受講生の問い合わせ対応（HTML, CSS, Rails, JS）、講師育成、チームマネジメント</p>
+          </div>
+          <div class="glass p-4 rounded-xl shadow-lg">
+            <h3 class="text-lg font-semibold mb-2">化粧品OEMメーカー</h3>
+            <p class="mb-1 text-xs text-gray-400">2019年4月〜2019年12月｜正社員</p>
+            <p>化粧品の処方開発、営業との調整</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="text-3xl font-bold mb-4 accent">所有スキル</h2>
+        <p class="text-sm text-gray-300">Ruby on Rails, JavaScript, VBA, Java</p>
+      </div>
+
+      <div>
+        <h2 class="text-3xl font-bold mb-4 accent">資格・免許</h2>
+        <ul class="list-disc list-inside text-sm text-gray-300 space-y-1">
+          <li>TOEIC スコア 820 (2018年8月取得)</li>
+          <li>Oracle Certified Java Programmer, Silver SE 11 (2021年9月取得)</li>
+          <li>普通自動車免許 (2025年7月取得)</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="text-3xl font-bold mb-4 accent">ポートフォリオ</h2>
+        <a href="https://github.com/tsuru7530/budget_app" class="text-cyan-300 hover:underline">budget_app（GitHub）</a>
+      </div>
+
+      <div>
+        <h2 class="text-3xl font-bold mb-4 accent">学習記録</h2>
+        <a href="https://qiita.com/tsuru7530" class="text-cyan-300 hover:underline">Qiitaプロフィール</a>
+      </div>
+
+      <div>
+        <h2 class="text-3xl font-bold mb-4 accent">自己PR</h2>
+        <p class="text-sm text-gray-300 leading-relaxed">現場視点と技術の両面から課題解決できることが私の強みです。現在は公共工事に関する監督・積算・契約・関係機関との調整を担当し、VBAを用いた業務改善や後輩指導にも取り組んでいます。前職ではプログラミングスクールにてRailsやJavaScriptを用いた技術サポートや講師育成を経験しました。現場業務とIT双方の経験を活かし、仕組みで業務を改善しながら価値提供できる人材を目指し、現在もポートフォリオ開発やQiitaでの学習発信を継続しています。</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
